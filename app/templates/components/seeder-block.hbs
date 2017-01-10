@@ -1,0 +1,11 @@
+<div class="well well-sm extra-padding-bottom">
+
+    <h3>{{sectionTitle}}</h3>
+
+      <div class="form-inline">
+
+        <button class="btn btn-danger" {{action 'deleteAction'}}>Delete All {{sectionTitle}}</button>
+        {{#fader-label isShowing=deleteReady}}Deleted!{{/fader-label}}
+      </div>
+
+</div>
